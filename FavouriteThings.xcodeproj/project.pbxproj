@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F855BAC82721EEC600213149 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAC72721EEC600213149 /* FavouriteThingsApp.swift */; };
-		F855BACA2721EEC600213149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAC92721EEC600213149 /* ContentView.swift */; };
+		F855BACA2721EEC600213149 /* VwView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAC92721EEC600213149 /* VwView.swift */; };
 		F855BACC2721EEDF00213149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F855BACB2721EEDF00213149 /* Assets.xcassets */; };
 		F855BACF2721EEDF00213149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F855BACE2721EEDF00213149 /* Preview Assets.xcassets */; };
+		F855BAD62721F4E900213149 /* BoatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAD52721F4E900213149 /* BoatView.swift */; };
+		F855BAD82721F74D00213149 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAD72721F74D00213149 /* SnowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F855BAC42721EEC500213149 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F855BAC72721EEC600213149 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
-		F855BAC92721EEC600213149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F855BAC92721EEC600213149 /* VwView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwView.swift; sourceTree = "<group>"; };
 		F855BACB2721EEDF00213149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F855BACE2721EEDF00213149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F855BAD52721F4E900213149 /* BoatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatView.swift; sourceTree = "<group>"; };
+		F855BAD72721F74D00213149 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				F855BAC72721EEC600213149 /* FavouriteThingsApp.swift */,
-				F855BAC92721EEC600213149 /* ContentView.swift */,
+				F855BAC92721EEC600213149 /* VwView.swift */,
+				F855BAD52721F4E900213149 /* BoatView.swift */,
+				F855BAD72721F74D00213149 /* SnowView.swift */,
 				F855BACB2721EEDF00213149 /* Assets.xcassets */,
 				F855BACD2721EEDF00213149 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F855BACA2721EEC600213149 /* ContentView.swift in Sources */,
+				F855BACA2721EEC600213149 /* VwView.swift in Sources */,
+				F855BAD62721F4E900213149 /* BoatView.swift in Sources */,
 				F855BAC82721EEC600213149 /* FavouriteThingsApp.swift in Sources */,
+				F855BAD82721F74D00213149 /* SnowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
