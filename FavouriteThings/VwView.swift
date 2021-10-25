@@ -10,9 +10,15 @@ import SwiftUI
 struct ContentView: View {
     // Some View = Opaque
     var body: some View {
-        Image("Mk2Golf")
-            .resizable()
-            .scaledToFit()
+        VStack {
+            
+            Image("Mk2Golf")
+                .resizable()
+                .scaledToFit()
+            
+            Text("The Mk2 Golf is the pinacle of performance and design, within a budget.")
+            
+        }
     }
 }
 
