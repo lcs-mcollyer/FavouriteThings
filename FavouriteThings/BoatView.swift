@@ -10,15 +10,15 @@ import SwiftUI
 struct BoatView: View {
     var body: some View {
         VStack {
-            
-            Image("Boat")
-                .resizable()
-                .scaledToFit()
-            Text("Nothing beats summer days with the boys on the water. With the ocasional fall.")
+            ScrollView {
+                Image("Boat")
+                    .resizable()
+                    .scaledToFit()
+                Text("Nothing beats summer days with the boys on the water. With the ocasional fall.")
+            }
         }
     }
 }
-
 struct BoatView_Previews: PreviewProvider {
     static var previews: some View {
         BoatView()

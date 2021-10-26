@@ -13,6 +13,7 @@
 		F855BACF2721EEDF00213149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F855BACE2721EEDF00213149 /* Preview Assets.xcassets */; };
 		F855BAD62721F4E900213149 /* BoatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAD52721F4E900213149 /* BoatView.swift */; };
 		F855BAD82721F74D00213149 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAD72721F74D00213149 /* SnowView.swift */; };
+		F8DCF42C272854EE00F46843 /* FavouriteThingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCF42B272854EE00F46843 /* FavouriteThingsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F855BACE2721EEDF00213149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F855BAD52721F4E900213149 /* BoatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatView.swift; sourceTree = "<group>"; };
 		F855BAD72721F74D00213149 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
+		F8DCF42B272854EE00F46843 /* FavouriteThingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				F855BAC72721EEC600213149 /* FavouriteThingsApp.swift */,
+				F88993AF27284FAF005590D3 /* Views */,
 				F855BAC92721EEC600213149 /* VwView.swift */,
 				F855BAD52721F4E900213149 /* BoatView.swift */,
 				F855BAD72721F74D00213149 /* SnowView.swift */,
+				F8DCF42B272854EE00F46843 /* FavouriteThingsList.swift */,
 				F855BACB2721EEDF00213149 /* Assets.xcassets */,
 				F855BACD2721EEDF00213149 /* Preview Content */,
 			);
@@ -71,6 +75,13 @@
 				F855BACE2721EEDF00213149 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F88993AF27284FAF005590D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F855BACA2721EEC600213149 /* VwView.swift in Sources */,
+				F8DCF42C272854EE00F46843 /* FavouriteThingsList.swift in Sources */,
 				F855BAD62721F4E900213149 /* BoatView.swift in Sources */,
 				F855BAC82721EEC600213149 /* FavouriteThingsApp.swift in Sources */,
 				F855BAD82721F74D00213149 /* SnowView.swift in Sources */,
