@@ -31,6 +31,27 @@ struct FavouriteThingsList: View {
                 Text("Snowboarding")
             })
            
+            NavigationLink(destination: {
+                FamilyView()
+            }, label: {
+                Text("Family")
+            })
+            
+            NavigationLink(destination: {
+                EdinburghView()
+            }, label: {
+                Text("Favourite Place")
+            })
+            
+            NavigationLink(destination: {
+                EnglandView()
+            }, label: {
+                Text("Home Land")
+            })
+            
+            
+            
+            
         }
         .navigationTitle("Favourite Things App")
     }
