@@ -14,6 +14,9 @@
 		F855BAD62721F4E900213149 /* BoatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAD52721F4E900213149 /* BoatView.swift */; };
 		F855BAD82721F74D00213149 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855BAD72721F74D00213149 /* SnowView.swift */; };
 		F8DCF42C272854EE00F46843 /* FavouriteThingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCF42B272854EE00F46843 /* FavouriteThingsList.swift */; };
+		F8DCF42E272859EF00F46843 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCF42D272859EF00F46843 /* FamilyView.swift */; };
+		F8DCF43027285AB300F46843 /* EdinburghView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCF42F27285AB300F46843 /* EdinburghView.swift */; };
+		F8DCF43227285B2000F46843 /* EnglandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCF43127285B2000F46843 /* EnglandView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		F855BAD52721F4E900213149 /* BoatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatView.swift; sourceTree = "<group>"; };
 		F855BAD72721F74D00213149 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
 		F8DCF42B272854EE00F46843 /* FavouriteThingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsList.swift; sourceTree = "<group>"; };
+		F8DCF42D272859EF00F46843 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		F8DCF42F27285AB300F46843 /* EdinburghView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdinburghView.swift; sourceTree = "<group>"; };
+		F8DCF43127285B2000F46843 /* EnglandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglandView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				F855BAC92721EEC600213149 /* VwView.swift */,
 				F855BAD52721F4E900213149 /* BoatView.swift */,
 				F855BAD72721F74D00213149 /* SnowView.swift */,
+				F8DCF42D272859EF00F46843 /* FamilyView.swift */,
+				F8DCF42F27285AB300F46843 /* EdinburghView.swift */,
+				F8DCF43127285B2000F46843 /* EnglandView.swift */,
 				F8DCF42B272854EE00F46843 /* FavouriteThingsList.swift */,
 				F855BACB2721EEDF00213149 /* Assets.xcassets */,
 				F855BACD2721EEDF00213149 /* Preview Content */,
@@ -154,10 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DCF43227285B2000F46843 /* EnglandView.swift in Sources */,
 				F855BACA2721EEC600213149 /* VwView.swift in Sources */,
 				F8DCF42C272854EE00F46843 /* FavouriteThingsList.swift in Sources */,
+				F8DCF42E272859EF00F46843 /* FamilyView.swift in Sources */,
 				F855BAD62721F4E900213149 /* BoatView.swift in Sources */,
 				F855BAC82721EEC600213149 /* FavouriteThingsApp.swift in Sources */,
+				F8DCF43027285AB300F46843 /* EdinburghView.swift in Sources */,
 				F855BAD82721F74D00213149 /* SnowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

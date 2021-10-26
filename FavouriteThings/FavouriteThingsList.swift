@@ -10,18 +10,36 @@ import SwiftUI
 struct FavouriteThingsList: View {
     var body: some View {
         List{
-            Text("VW Golf")
-            Text("Boating")
-            Text("Snowboarding")
+            
+//This is the more tedious way to
+//Create a naviagtion with label and destination
+            NavigationLink(destination: {
+                ContentView()
+            }, label: {
+                Text("VW Golf")
+            })
+            
+            NavigationLink(destination: {
+                BoatView()
+            }, label: {
+                Text("Boating")
+            })
+            
+            NavigationLink(destination: {
+                SnowView()
+            }, label: {
+                Text("Snowboarding")
+            })
+           
         }
-        .navigationTitle("favourite Things App")
+        .navigationTitle("Favourite Things App")
     }
     
 }
 
 struct FavouriteThingsList_Previews: PreviewProvider {
     static var previews: some View {
-        NaviagtionView {
+        NavigationView {
             FavouriteThingsList()
         }
         

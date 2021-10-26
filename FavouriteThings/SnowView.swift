@@ -10,12 +10,16 @@ import SwiftUI
 struct SnowView: View {
     var body: some View {
         VStack {
-            scroll {
+            ScrollView {
                 Image("Snow")
                     .resizable()
                     .scaledToFit()
                 Text("It's hard to find something that  compares to sweeping down a slope, at a speed you can't comprehend.")
+                    .padding()
+                
+                    Spacer()
             }
+            .navigationTitle("Snowbaording")
         }
     }
 }
