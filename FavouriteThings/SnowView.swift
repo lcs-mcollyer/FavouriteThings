@@ -14,7 +14,7 @@ struct SnowView: View {
                 Image("Snow")
                     .resizable()
                     .scaledToFit()
-                Text("It's hard to find something that  compares to sweeping down a slope, at a speed you can't comprehend.")
+                Text("It's hard to find something that  compares to sweeping down a slope, at a speed you can't comprehend. Moving to Canada I assumed skiing would be something I really enjoy, Boy was I wrong. I found my self constantly stressed and out of control. However,I rememer a friend introducing me to snowboaridng in which I instantly found a bond with.")
                     .padding()
                 
                     Spacer()
