@@ -9,11 +9,10 @@ import SwiftUI
 
 struct SnowView: View {
     var body: some View {
-        VStack {
-            ScrollView {
-                Image("Snow")
-                    .resizable()
-                    .scaledToFit()
+        ScrollView {
+            VStack(alignment: .leading) {
+            
+                 PhotoCaptionView(credit: "Credit : Ms Grainger", caption: "A nervous start to racing", imageName: "Snow")
                 Text("It's hard to find something that  compares to sweeping down a slope, at a speed you can't comprehend. Moving to Canada I assumed skiing would be something I really enjoy, Boy was I wrong. I found my self constantly stressed and out of control. However,I rememer a friend introducing me to snowboaridng in which I instantly found a bond with.")
                     .padding()
                 
@@ -28,3 +27,4 @@ struct SnowView_Previews: PreviewProvider {
         SnowView()
     }
 }
+

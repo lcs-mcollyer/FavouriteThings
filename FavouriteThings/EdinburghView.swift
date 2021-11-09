@@ -9,11 +9,11 @@ import SwiftUI
 
 struct EdinburghView: View {
     var body: some View {
-        VStack {
-            ScrollView {
-                Image("Edinburgh")
-                    .resizable()
-                    .scaledToFit()
+        ScrollView {
+            VStack(alignment: .leading) {
+            
+               
+                 PhotoCaptionView(credit: "Credit : My Phone", caption: "a peaceful display of edinburgh", imageName: "Edinburgh")
                 Text("I have been lucky enough to travel through alot of countries throughout my life. However, the place that still fascinates me the most would be Edinburgh in Scotland. Theres something in the air. Atleast thats what I like to think. It's ssimply the most unbusy busy place. Mix that in with a huge historic landmark and gorgeous garrdens. Then you have created my ideal place.")
                     .padding()
                     
@@ -29,3 +29,4 @@ struct EdinburghView_Previews: PreviewProvider {
         EdinburghView()
     }
 }
+
